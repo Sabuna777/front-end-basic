@@ -60,3 +60,46 @@ header li{
 	padding-top: 15px 0;
 	width: inherit;
 }
+@media (max-width: 1200px){
+	.container{
+		max-width: 960px;
+		flex-wrap: wrap;
+	}
+	/*
+	.flex{
+		flex-wrap: wrap;
+	}
+	*/
+	.box:last-child{
+		display: none;
+	}
+}
+@media (max-width: 1024px){
+	.nav{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+	.container{
+		max-width: 760px;
+	}
+	.box{
+		width: 240px;
+	}
+	.box img{
+		width: 100%;
+		height: initial;
+	}
+}
+@media (max-width: 776px){
+	.social-li{
+		display: none;
+	}
+	.container{
+		max-width: 480px;
+	}
+	.flex{
+		flex-wrap: wrap;
+	}
+}
